@@ -5,6 +5,7 @@ test('add new character', () => {
   const characterToAdd = {
     name: 'Лучник',
     type: 'Bowman',
+    level: 1,
     attack: 25,
     defence: 25,
     health: 100,
@@ -15,6 +16,7 @@ test('add new character', () => {
     {
       name: 'Лучник',
       type: 'Bowman',
+      level: 1,
       attack: 25,
       defence: 25,
       health: 100,
